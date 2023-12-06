@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/connection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300sp"
+        android:layout_marginTop="200sp"
+        android:text="Нет соединения"
+        android:textSize="20sp" />
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/videostatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220sp"
+        android:layout_marginTop="240sp"
+        android:text="Ошибка получения видеосигнала"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_marginTop="110sp"
+        android:layout_marginLeft="70sp"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:text=">"
+        android:rotation="-90"
+        android:id="@+id/up"
+        android:clickable="true"
+        />
+    <Button
+        android:layout_marginTop="170sp"
+        android:layout_marginLeft="70sp"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:text=">"
+        android:rotation="90"
+        android:id="@+id/down"
+        android:clickable="true"
+        />
+    <Button
+        android:layout_marginTop="140sp"
+        android:layout_marginLeft="20sp"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:text=">"
+        android:rotation="180"
+        android:id="@+id/left"
+        android:clickable="true"
+        />
+    <Button
+        android:layout_marginTop="140sp"
+        android:layout_marginLeft="120sp"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:text=">"
+        android:id="@+id/right"
+        android:clickable="true"
+        />
+
+</RelativeLayout>
